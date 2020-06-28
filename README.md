@@ -51,7 +51,7 @@ You know the raw data are in the right format if you:
 1. You did not remove any data from the data set
 1. You did not summarize the data in any way
 
-If you made any modifications of the raw data it is not the raw form of the data. Reporting modified data
+If you made any modifications of the raw data, it is not the raw form of the data. Reporting modified data
 as raw data is a very common way to slow down the analysis process, since the analyst will often have to do a
 forensic study of your data to figure out why the raw data looks weird. (Also imagine what would happen if new data arrived?)
 
@@ -147,11 +147,11 @@ a couple of times and see if the code produces the same output.
 
 In many cases, the person who collected the data has incentive to make it tidy for a statistician to speed the process
 of collaboration. They may not know how to code in a scripting language. In that case, what you should provide the statistician
-is something called [pseudocode](http://en.wikipedia.org/wiki/Pseudocode). It should look something like:
+is something called [pseudocode](http://en.wikipedia.org/wiki/Pseudocode). It should look something like;
 
 1. Step 1 - take the raw file, run version 3.1.2 of summarize software with parameters a=1, b=2, c=3
-1. Step 2 - run the software separately for each sample
-1. Step 3 - take column three of outputfile.out for each sample and that is the corresponding row in the output data set
+2. Step 2 - run the software separately for each sample
+3. Step 3 - take column three of outputfile.out for each sample and that is the corresponding row in the output data set
 
 You should also include information about which system (Mac/Windows/Linux) you used the software on and whether you 
 tried it more than once to confirm it gave the same results. Ideally, you will run this by a fellow student/labmate
@@ -171,8 +171,8 @@ checks.
 You should then expect from the statistician:
 
 1. An analysis script that performs each of the analyses (not just instructions)
-1. The exact computer code they used to run the analysis
-1. All output files/figures they generated. 
+2. The exact computer code they used to run the analysis
+3. All output files/figures they generated. 
 
 This is the information you will use in the supplement to establish reproducibility and precision of your results. Each
 of the steps in the analysis should be clearly explained and you should ask questions when you don't understand
